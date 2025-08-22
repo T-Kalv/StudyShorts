@@ -162,7 +162,7 @@ public class StudyGUIScreen extends JFrame implements ActionListener
 
     private void initialiseFX(JFXPanel videoPanel)
     {
-        String embeddedVideoPath = "/home/t-kalvin/Desktop/Desktop/CS/Python/Test/Subway Surfers (2024) - Gameplay [4K 16x9] No Copyright [i0M4ARe9v0Y].mp4";
+        String embeddedVideoPath = "";
         Media media = new Media(new java.io.File(embeddedVideoPath).toURI().toString());
         MediaPlayer mediaPlayer = new MediaPlayer(media);
         mediaPlayer.setAutoPlay(true);
